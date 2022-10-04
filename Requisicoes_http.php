@@ -1,6 +1,6 @@
 <?php
 
-$contexto = stream_context_create([
+$contexto = stream_context_create([                                                             /* stream_context_create: Criando um contexto */
     'http' => [
         'method' => 'POST',
         'header' => "X-From: PHP\r\nContent-Type: text/plain",
